@@ -1,3 +1,6 @@
+# ABOUT PROJECT
+The project is written in REACT, the project used a form, also drag and drop, animations, loader, styling and design.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
