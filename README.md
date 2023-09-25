@@ -1,5 +1,5 @@
 # ABOUT PROJECT
-The project is written in REACT, the project used a form, also drag and drop, animations, loader, styling and design.
+The project is written in REACT, the project used a form, as well as drag and drop, animations, loader, styling and design.
 
 # Getting Started with Create React App
 
