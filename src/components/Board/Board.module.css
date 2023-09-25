@@ -1,0 +1,38 @@
+.board-wrapper {
+	display: flex;
+}
+
+.board {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	width: 100%;
+	min-height: calc(100vh - 305px);
+}
+
+.board h3 {
+	font-size: 1.75em;
+	margin-bottom: 30px;
+}
+
+.board-item {
+	width: 50%;
+	text-align: center;
+	padding: 20px;
+}
+
+.board-item:last-child {
+	position: relative;
+}
+
+.board-item:last-child::before {
+	content: "";
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	left: 0;
+	width: 3px;
+	background-color: var(--board-line-color);
+	transform: translateX(-1.5px);
+	border-radius: 3px;
+}

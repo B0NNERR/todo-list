@@ -1,0 +1,37 @@
+.modal {
+	position: fixed;
+	width: 800px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: var(--body-bg-color);
+	border-radius: 20px;
+	padding: 30px;
+	box-shadow: 0 0 10px 5px #ffffff43;
+	cursor: default;
+
+	z-index: 10000;
+}
+
+.close-wrapper {
+	position: absolute;
+	top: -70px;
+	right: -70px;
+}
+
+.close {
+	font-family: "Exo2-Bold";
+	font-size: 2em;
+	width: 40px;
+	height: 40px;
+	border: none;
+	border-radius: 50%;
+	background-color: var(--close-button-color);
+}
+
+.close span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(40%, -4%);
+}

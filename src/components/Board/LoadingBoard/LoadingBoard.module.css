@@ -1,0 +1,35 @@
+.loader {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--body-bg-color);
+	margin: 0 auto;
+}
+
+.spinner {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 20px solid var(--loader-main-color);
+	border-top: 20px solid var(--loader-sub-color);
+	animation: loading 1s infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

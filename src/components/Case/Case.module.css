@@ -1,0 +1,71 @@
+.item {
+	padding: 10px 20px;
+	background-color: var(--card-bg-color);
+	border-radius: 10px;
+	box-shadow: 0 0 7px 1px var(--card-shadow-color);
+	color: var(--card-text-color);
+	cursor: grab;
+	opacity: 1;
+	transition: transform 0.2s linear, opacity 0.1s linear;
+}
+
+.item:hover {
+	transform: translateY(-5px);
+}
+
+.item:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.title {
+	font-family: "Exo2-Bold";
+	font-size: 1.5em;
+	text-align: left;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #dcf13f;
+}
+
+.desc {
+	font-family: "Exo2-Light";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100px;
+	margin-bottom: 10px;
+	background-color: var(--desc-bg-color);
+	border-radius: 10px;
+	box-shadow: inset 0 0 10px 2px var(--desc-inset-shadow-color);
+}
+
+.bottom-info {
+	display: flex;
+	justify-content: space-between;
+	padding-inline: 10px;
+}
+
+.created-date,
+.done,
+.unfulfilled {
+	font-family: "Exo2-Light";
+}
+
+.done {
+	color: #00ff04;
+}
+
+.unfulfilled {
+	color: #ff0000;
+}
+
+.full-opacity {
+	opacity: 0;
+}
+
+.opacity {
+	opacity: 0.5;
+}
+
+.item.opacity > div {
+	opacity: 0;
+}

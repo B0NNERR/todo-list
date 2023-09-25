@@ -1,0 +1,84 @@
+@font-face {
+	font-family: "Pacifico";
+	src: url("./fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-Black";
+	src: url("./fonts/Exo2-Black.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-BlackItalic";
+
+	src: url("./fonts/Exo2-BlackItalic.ttf");
+}
+@font-face {
+	font-family: "Exo2-Bold";
+	src: url("./fonts/Exo2-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-BoldItalic";
+	src: url("./fonts/Exo2-BoldItalic.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-Light";
+	src: url("./fonts/Exo2-Light.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-LightItalic";
+	src: url("./fonts/Exo2-LightItalic.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-ExtraBold";
+	src: url("./fonts/Exo2-ExtraBold.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-ExtraBoldItalic";
+	src: url("./fonts/Exo2-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-ExtraLight";
+	src: url("./fonts/Exo2-ExtraLight.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-ExtraLightItalic";
+	src: url("./fonts/Exo2-ExtraLightItalic.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-Medium";
+	src: url("./fonts/Exo2-Medium.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-MediumItalic";
+	src: url("./fonts/Exo2-MediumItalic.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-Regular";
+	src: url("./fonts/Exo2-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-SemiBold";
+	src: url("./fonts/Exo2-SemiBold.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-SemiBoldItalic";
+	src: url("./fonts/Exo2-SemiBoldItalic.ttf");
+}
+
+@font-face {
+	font-family: "Exo2-Thin";
+	src: url("./fonts/Exo2-Thin.ttf");
+}

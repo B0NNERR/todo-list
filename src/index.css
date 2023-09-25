@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("./assets/fonts.css");
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	list-style-type: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html[data-theme="dark"] {
+	/* BODY */
+	--body-bg-color: #393939;
+	--body-text-color: #fff;
+
+	--active-theme-button-inset-box-shadow-color: #0000007f;
+
+	/* DEFAULT-BUTTON */
+	/* DEFAULT */
+	--default-button-bg-color: #dcf13f;
+	--default-button-border-color: #fff;
+	--default-button-box-shadow-color: #ffffff39;
+	--default-button-text-color: #000;
+	--close-button-color: #dcf13f;
+
+	/* HOVER */
+	/* --default-button-border-color_hover: #fff;
+	--default-button-bg-color_hover: #fff;
+	--default-button-text-color_hover: #000; */
+
+	/* BOARD */
+	--board-line-color: #fff;
+
+	/* CARD */
+	--card-bg-color: #343434;
+	--card-text-color: #fff;
+	--card-shadow-color: #dcf13f0c;
+	--desc-bg-color: #2c2c2c;
+	--desc-inset-shadow-color: #222222;
+
+	/* SPINER */
+	--loader-main-color: #0000002f;
+	--loader-sub-color: #ffffffa8;
+}
+
+html[data-theme="light"] {
+	/* BODY */
+	--body-bg-color: #fff;
+	--body-text-color: #393939;
+
+	--active-theme-button-inset-box-shadow-color: #000000a5;
+
+	/* DEFAULT-BUTTON */
+	/* DEFAULT */
+	--default-button-bg-color: #393939;
+	--default-button-border-color: #393939;
+	--default-button-box-shadow-color: #00000039;
+	--default-button-text-color: #fff;
+	--close-button-color: #393939;
+
+	/* HOVER */
+	/* --default-button-border-color_hover: #fff;
+	--default-button-bg-color_hover: #fff;
+	--default-button-text-color_hover: #000; */
+
+	/* BOARD */
+	--board-line-color: #5d5d5d;
+
+	/* CARD */
+	--card-bg-color: #5d5d5d;
+	--card-text-color: #fff;
+	--card-shadow-color: #dcf13f0c;
+	--desc-bg-color: #2c2c2c;
+	--desc-inset-shadow-color: #222222;
+
+	/* SPINER */
+	--loader-main-color: #00000075;
+	--loader-sub-color: #fff34aa8;
+}
+
+body {
+	font-family: "Exo2-Light";
+	font-size: 14px;
+	/* font-family: "Pacifico"; */
+	background-color: var(--body-bg-color);
+	color: var(--body-text-color);
+
+	min-height: 100vh;
+
+	transition: background-color 200ms linear;
 }

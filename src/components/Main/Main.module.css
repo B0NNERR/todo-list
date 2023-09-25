@@ -1,0 +1,23 @@
+main {
+	max-width: 1200px;
+	min-height: calc(100vh - 149px);
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main-title {
+	padding: 0;
+	margin: 0;
+
+	font-family: "Exo2-Bold";
+	font-size: 2.5em;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.button-add-case {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
